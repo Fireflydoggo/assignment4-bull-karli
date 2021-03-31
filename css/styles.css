@@ -1,3 +1,10 @@
+body {
+  text-align: center;
+  background-image: url('../images/background.jpg');
+  background-size: cover;
+}
+
+
 @font-face {
   font-family: 'Fredericka the Great', cursive;
   src: url('../fonts/FrederickatheGreat-Regular.ttf') format('truetype');
@@ -5,36 +12,47 @@
   src: url('../fonts/PermanentMarker-Regular.ttf') format('truetype');
 }
 
+
 li {
   font-family: 'Fredericka the Great', cursive;
-  text-shadow: 1px 1px 3px #666666
   list-style-type: none;
-  display: inline;
+  display: inline-block;
   margin-right: 10px;
+  text-shadow: 2px 2px 4px #000000;
 }
 
-body {
-  text-align: center;
-  background-image: url('images/BG.jpg');
-  background-size: cover;
+
+ul {
+  text-align: right;
+  font-size: 90%;
+}
+
+
+a {
+  text-decoration: none;
 }
 
 
 h1 {
   font-family: 'Permanent Marker', cursive;
+  color: White;
   text-transform: uppercase;
   text-align: center;
-  text-shadow: 1px 1px 3px #666666;
+  text-shadow: 4px 4px 6px #000000;
 }
 
 
 p {
   font-family: 'Fredericka the Great', cursive;
+  color: White;
   width: 800px;
   padding: 20px;
   margin: auto;
+  text-align: center;
+  text-shadow: 5px 5px 7px #000000;
 }
 
+
 section {
-    margin: 30px 0;
+    margin: 25px 0;
 }
