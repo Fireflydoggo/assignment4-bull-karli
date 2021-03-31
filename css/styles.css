@@ -1,0 +1,25 @@
+
+    <style>
+
+      body {
+        text-align: center;
+        background-image: url('image/BG.jpg');
+        background-size: cover;
+      }
+      p {
+        font-weight: bold;
+        width: 800px;
+        padding: 20px;
+        margin: auto;
+        border: 4px double #0088dd;
+        border-radius: 20px;
+        -moz-border-radius: 20px;
+        -webkit-border-radius: 20px;
+      }
+
+
+    </style>
+
+p {
+  font-family: 'Fredericka the Great', cursive;
+}
