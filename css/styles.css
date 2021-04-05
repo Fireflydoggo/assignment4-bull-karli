@@ -32,6 +32,17 @@ header {
   z-index: 99999;
 }
 
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: White;
+  text-align: left;
+  font-size: 120%;
+  position: fixed;
+  z-index: 100;
+  top: .5%;
+  padding-left: 20px;
+}
+
 header nav li {
   font-family: 'Fredericka the Great', cursive;
   list-style-type: none;
@@ -68,38 +79,32 @@ body {
   background-size: cover;
 }
 
-
-h1 {
-  font-family: 'Permanent Marker', cursive;
-  color: White;
-  text-align: left;
-  font-size: 120%;
-  padding-left: 20px;
-}
-
 h2 {
   font-family: 'Permanent Marker', cursive;
-  color: White;
   text-transform: uppercase;
-  text-align: center;
-  text-shadow: 4px 4px 6px #000000;
-}
-
-h3 {
-  font-family: 'Fredericka the Great', cursive;
-  color: black;
+  font-size: 25px;
+  text-shadow: 2px 3px 4px #000000;
+  float: right;
   position: absolute;
-  top: 50%;
-  right: 25%;
+  top: 15%;
+  right: 40.5%;
+  z-index: 100;
 }
 
-
-main img {
-  position: relative;
-  max-width: 250px;
+.highlight {
+  color: turquoise;
 }
 
-p {
+.center {
+       position: relative;
+       display: block;
+       max-width: 265px;
+       padding-top: 65px;
+       margin-left: auto;
+       margin-right: auto;
+     }
+
+section p {
   font-family: 'Fredericka the Great', cursive;
   color: White;
   width: 800px;
@@ -108,7 +113,6 @@ p {
   text-align: center;
   text-shadow: 5px 5px 7px #000000;
 }
-
 
 section {
     margin: 20px 0;
